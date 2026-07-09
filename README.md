@@ -1,30 +1,14 @@
-# React Native Chat Client
+# Chat Client Merged
 
-A React Native chat client rebuilt from the original Java socket chat example.
+The active chat experience has been merged into the consolidated Interview Command Center app:
 
-The original Java socket client/server files are retained under `legacy/java/` for reference only. The active app is an Expo React Native application.
+https://github.com/rohanpurohit7/Flashcard-App
 
-## Quick Start
+This repository remains as a legacy reference for the prior React Native and Java socket chat implementations.
 
-```powershell
-npm install
-npm run start
-```
+## Current Status
 
-Use Expo Go, an emulator, or a development build to run the app.
-
-## Features
-
-- Mobile-first chat room screen
-- Mock chat service with asynchronous send/receive behavior
-- Message bubbles with local/remote styling
-- Connection state panel
-- Service layer ready for WebSocket replacement
-- Architecture, workflow, class dependency, deployment, and user guides
-
-## Documentation
-
-- [Architecture](docs/architecture.md)
-- [Class Dependencies](docs/class-dependencies.md)
-- [Deployment Guide](docs/deployment-guide.md)
-- [User Guide](docs/user-guide.md)
+- Active product: `Flashcard-App`
+- Active chat UI: Interview Command Center conference-room and interview-coach panels
+- Legacy React Native source: retained in this repository
+- Legacy Java socket source: retained under `legacy/java/`
