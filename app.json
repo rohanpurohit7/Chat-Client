@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "React Native Chat Client",
+    "slug": "react-native-chat-client",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.rohanpurohit.chatclient"
+    }
+  }
+}
